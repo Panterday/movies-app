@@ -6,7 +6,7 @@ import { MovieDescription } from './pages/MovieDescription';
 
 function App() {
   return (
-    <Router>
+    <>
       <Header></Header>
       <Switch>
           <Route exact path="/movie/:movieId">
@@ -16,7 +16,7 @@ function App() {
             <LandingPage></LandingPage>
           </Route>
       </Switch>
-    </Router>
+    </>
   );
 }
 
