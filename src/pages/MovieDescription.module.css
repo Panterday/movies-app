@@ -1,0 +1,43 @@
+.movieDescription{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.imgStyles{
+    box-shadow: 3px 4px 5px black;
+}
+
+.textMovieDescription{
+    background-color: #00A1FB;
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    gap: 2em;
+    color: whitesmoke;
+    font-size: 1.4em;
+    width: 50%;
+    min-width: 17.8em;
+    text-align: justify;
+    box-shadow: 3px 4px 5px black;
+}
+
+@media (max-width: 400px){
+
+    .movieDescription{
+        padding: 1em;
+    }
+
+    .imgStyles{
+        width: 100%;
+    }
+
+    .textMovieDescription{
+        width: 100%;
+        padding: 1em;
+        font-size: 1em;
+        min-width: 10em;
+    }
+}
+

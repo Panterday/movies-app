@@ -1,0 +1,21 @@
+header{
+    background-color: #00A1FB;  
+    color: whitesmoke;
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+header h2{
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+header menu{
+    display: flex;
+    gap: 2em;
+    margin-right: 1em;
+    align-items: center;
+}

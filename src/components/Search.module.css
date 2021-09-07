@@ -1,0 +1,49 @@
+.searchContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.formStyles{
+    margin-top: 2em;
+}
+
+.formStyles input{
+    width: 20em;
+    padding: 0.3em;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    padding-left: 1em;
+}
+
+.formStyles input:focus{
+    outline: none;
+    box-shadow: 0 0 10px #00A1FB;
+}
+
+.formStyles button{
+    width: 10em;
+    height: 2em;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.formStyles button:hover{
+    cursor: pointer;
+    background-color: #00A1FB;
+}
+
+@media (max-width: 400px) {
+
+    .formStyles{
+        width: 80%;
+    }
+
+    .formStyles input{
+        width: 60%
+    }
+
+    .formStyles button{
+        width: 40%;
+    }
+}
